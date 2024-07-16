@@ -557,6 +557,14 @@ video {
   margin-right: 1.5rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-1\.5 {
+  margin-bottom: 0.375rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -573,8 +581,8 @@ video {
   height: 9rem;
 }
 
-.h-\[96\%\] {
-  height: 96%;
+.h-\[92\%\] {
+  height: 92%;
 }
 
 .h-full {
@@ -662,11 +670,18 @@ video {
     right: 1.5rem;
   }
 
-  .sm\:h-\[88\%\] {
+  .sm\:h-\[86\%\] {
+    height: 86%;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:h-\[88\%\] {
     height: 88%;
   }
 
-  .sm\:overflow-hidden {
+  .md\:overflow-hidden {
     overflow: hidden;
   }
 }
