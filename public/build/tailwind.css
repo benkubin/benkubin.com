@@ -661,4 +661,12 @@ video {
   .sm\:right-6 {
     right: 1.5rem;
   }
+
+  .sm\:h-\[88\%\] {
+    height: 88%;
+  }
+
+  .sm\:overflow-hidden {
+    overflow: hidden;
+  }
 }
