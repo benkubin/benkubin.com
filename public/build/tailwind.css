@@ -557,12 +557,12 @@ video {
   margin-right: 1.5rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
+.mb-0 {
+  margin-bottom: 0px;
 }
 
-.mb-1\.5 {
-  margin-bottom: 0.375rem;
+.mb-0\.5 {
+  margin-bottom: 0.125rem;
 }
 
 .mt-2 {
@@ -676,6 +676,10 @@ video {
 }
 
 @media (min-width: 768px) {
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
 
   .md\:h-\[88\%\] {
     height: 88%;
