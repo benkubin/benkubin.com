@@ -3,6 +3,8 @@ module.exports = {
   content: [
       './src/**/*.{html,js}',
       'index.html',
+      'about.html',
+      './pages/*.{html,js}',
   ],
   theme: {
     extend: {
@@ -18,8 +20,9 @@ module.exports = {
       darkAccent: '#C155C4',
     },
     fontFamily: {
-      sans: ["Open Sans", "sans-serif"]
-    }
+      display: "Open Sans, sans-serif",
+    },
+
   },
   plugins: [],
 }
