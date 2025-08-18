@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    "build": "npx @tailwindcss/cli -i css/styles.css -o public/build/tailwind.css"
   },
   "keywords": [],
   "author": "Ben Kubin",
