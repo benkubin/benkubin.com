@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+
+@theme {
+    --color-transparent: transparent;
+    --color-white: #ffffff;
+    --color-background: #242425;
+    --color-mainPurple: #BD48BF;
+    --color-lightAccent: #F4E2F5;
+    --color-mediumAccent: #D997DB;
+    --color-darkAccent: #C155C4;
+}
